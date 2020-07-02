@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reacts",
+  "info": {
+    "name": "react"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    }
+  }
+}

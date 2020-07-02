@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links",
+  "info": {
+    "name": "Links"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "isVisable": {
+      "type": "boolean"
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "links",
+      "dominant": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "react": {
+      "model": "react"
+    }
+  }
+}
